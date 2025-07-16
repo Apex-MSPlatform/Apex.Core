@@ -26,5 +26,8 @@ Presentation
 
 Global exception handler middleware (optional reuse across services)
 
+Generate the NuGet .nupkg file:
+dotnet pack -c Release
+
 🎯 Purpose
 Apex.Core enforces Clean Architecture principles and ensures all ApexHR services (Security, Auth, Workflow, Attendance) remain consistent, loosely coupled, and easy to maintain by centralizing shared logic in one place.

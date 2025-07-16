@@ -1,8 +1,5 @@
 ﻿using Domain.Shared.Pagination;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
-
 
 namespace Infrastructure.Extensions
 {
@@ -34,7 +31,7 @@ namespace Infrastructure.Extensions
             if (searchFunc != null)
                 query = searchFunc(query, parameters.SearchTerm);
 
-            if (! parameters.OrderBy.IsNullOrEmpty() )
+            if (! string.IsNullOrEmpty(parameters.OrderBy))
                 query = Sortfunc(query, parameters.OrderBy!, parameters.IsDescending);
 
             var totalItems = await query.CountAsync();

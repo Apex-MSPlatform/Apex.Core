@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{9CAA0495-258F-4934-8F3D-F2332A548915}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{016E72EC-18F4-4072-BF9F-433F86B4EF9F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation", "Presentation\Presentation.csproj", "{98865396-FFE1-416F-A739-42108D12DDC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apex.Core", "Apex.Core\Apex.Core.csproj", "{5FB98BDA-F869-48C4-A07F-A8C8315B295D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{98865396-FFE1-416F-A739-42108D12DDC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98865396-FFE1-416F-A739-42108D12DDC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98865396-FFE1-416F-A739-42108D12DDC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FB98BDA-F869-48C4-A07F-A8C8315B295D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FB98BDA-F869-48C4-A07F-A8C8315B295D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FB98BDA-F869-48C4-A07F-A8C8315B295D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FB98BDA-F869-48C4-A07F-A8C8315B295D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
